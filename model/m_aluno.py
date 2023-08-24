@@ -1,6 +1,6 @@
 import pymysql.cursors
 
-class aluno:
+class m_aluno:
     def __init__(self):
         self.conexao = pymysql.connect(
             host = "localhost",
