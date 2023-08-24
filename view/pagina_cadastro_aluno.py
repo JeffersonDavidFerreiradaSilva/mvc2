@@ -3,7 +3,7 @@ class cadastro:
 
     @staticmethod
 
-    def pegar_dados_aluno():
+    def obter_dados_aluno():
         nome = input("DIGITE O NOME DO ALUNO: ")
         idade = int(input("DIGITE A IDADE DO ALUNO: "))
         peso = float(input("DIGITE O PESO DO ALUNO: "))
@@ -13,3 +13,4 @@ class cadastro:
 
     def mostrarmensagem (menssagem):       
         print (menssagem)
+        
